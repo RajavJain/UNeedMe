@@ -1,0 +1,51 @@
+h2{
+    text-align: center;
+    /* margin-top: 10px; */
+    font-size: 30px;
+
+}
+.container{
+    height: 86vh;
+    /* margin-top: 0px; */
+    /* background-image: url('img/contact.jpeg') ; */
+    background-image: url("/static/img/contact.jpeg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+} 
+.myform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.myinput{
+    display: flex;
+    flex-direction: column;
+    margin: 6px;
+    padding: 5px;
+    font-size: 20px;
+    outline: none;
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.btn{
+    padding: 10px;
+    margin: 10px;
+    /* align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center; */
+    font-size: 20px;
+    border-radius: 5px;
+    position: relative;
+    left: 680px;
+    cursor: pointer;
+    color: coral;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: black;
+    color: brown;
+}

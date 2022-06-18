@@ -1,0 +1,49 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+
+block style
+    style 
+        include ../static/style.css
+
+block content   
+
+
+    section#introSection
+        div Welcome   to   U_Need_Me  Laundary
+        div.small | Best  Laundary  Service |
+
+    section#missionSection
+        h2 Our Mission 
+        div.card
+            h3 Cleanliness 
+            p Cleanliness generally refers to keeping spaces clean and avoiding dirt. But when we delve deep into the concept of cleanliness, we find out that cleanliness is not about keeping yourself and your surroundings clean, it is also about keeping your mind clean. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, voluptatibus nisi reiciendis, quia nesciunt sint adipisci ut facilis, officia modi vitae incidunt laborum molestiae ea. Aspernatur nostrum in vitae cumque.
+            img(src="../static/img/2.jpeg", alt="")
+
+        div.card
+            h3 Punctuality
+            p Cleanliness generally refers to keeping spaces clean and avoiding dirt. But when we delve deep into the concept of cleanliness, we find out that cleanliness is not about keeping yourself and your surroundings clean, it is also about keeping your mind clean. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error fugit natus sed omnis, nobis dicta inventore voluptate! Voluptatem optio corrupti, non totam qui earum voluptate, a iusto inventore laboriosam accusantium!
+            img(src="/static/img/bg.jpeg", alt="")
+
+        div.card
+            h3 Pocket Friendly 
+            p Cleanliness generally refers to keeping spaces clean and avoiding dirt. But when we delve deep into the concept of cleanliness, we find out that cleanliness is not about keeping yourself and your surroundings clean, it is also about keeping your mind clean. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam perferendis veniam tempore ipsa repellat vitae? Sint iusto quibusdam laborum assumenda illo ipsum mollitia, delectus autem harum, nemo eveniet, distinctio numquam!
+            img(src="/static/img/3.jpeg", alt="")
+
+    section#sponsorsSection
+        h2 Our Sponsors
+        div.sponser
+            img(src="../static/img/sponser1.svg", alt="uneedme")
+            img(src="../static/img/sponser2.svg", alt="uneedme")
+            img(src="/static/img/sponser7.svg", alt="uneedme")
+            img(src="/static/img/sponser3.svg", alt="uneedme")
+            img(src="/static/img/sponser4.svg", alt="uneedme")
+            img(src="/static/img/sponser5.svg", alt="uneedme")
+            //- img(src="/static/img/sponser6.svg", alt="uneedme")
+
+    //- footer#footer
+    //-     | copywrite @2022 Uneedme.com   |   All right reserved
+
+    script
+        include ../static/index.js

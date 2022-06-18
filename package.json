@@ -1,0 +1,21 @@
+{
+  "name": "uneedme",
+  "version": "1.0.0",
+  "description": "laundary in banda",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rajav jain",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "jade": "^1.11.0",
+    "mongoose": "^6.2.0",
+    "node": "^17.4.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

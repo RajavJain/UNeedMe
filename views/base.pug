@@ -1,0 +1,27 @@
+doctype html 
+html
+    head
+        title Uneedme Laundary 
+        block scripts
+        block style 
+        //-   script(src='/jquery.js')
+    body
+        nav#navbar
+            div#logo
+                img(src="/static/img/1.png")
+                //- |    UNEEDME 
+            ul 
+                li #[a(href="/") Home]
+                li #[a(href="/") About]
+                li #[a(href="/") Services]
+                li #[a(href="/") Class Info]
+                li #[a(href="/contact") Contact Us]
+
+        block content
+        block foot
+            footer#footer
+                | copywrite @2022 Uneedme.com   |   All right reserved
+            //- | copywrite @2022 Uneedme.com   |   All right reserved 
+        //- block foot
+        //-   #footer
+        //-     p some footer content
