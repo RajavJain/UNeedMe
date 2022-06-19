@@ -37,6 +37,7 @@ h2{
     justify-content: center;
     display: flex;
     text-align: center; */
+    margin-right: auto;
     font-size: 20px;
     border-radius: 5px;
     position: relative;

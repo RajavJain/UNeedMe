@@ -1,7 +1,7 @@
 extends base.pug
 
-block scripts 
-    script(src='/static/index.js')
+//- block scripts 
+//-     script(src='/static/index.js')
 
 block style
     style 
@@ -12,11 +12,11 @@ block content
     div.container
         //- img(src="../static/img/contact.jpeg", alt="uneedme")
         h2 Contact Us 
-        form(action="/contact",method="post" Class="myform") 
+        form(action="/contact" method="post" Class="myform") 
             input(type="text",Class="myinput", name="name", placeholder="Enter your name")
             input(type="text",Class="myinput", name="phone", placeholder="Enter your phone number")
             input(type="text",Class="myinput", name="mail", placeholder="Enter your mail Id")
             input(type="text",Class="myinput", name="address", placeholder="Enter your Address")
             //- input(type="text",Class="myinput", name="name", placeholder="Enter your ")
-        button.btn  
-            | Submit 
+            button.btn  
+                | Submit 
