@@ -226,9 +226,42 @@ div #logo{
     background-color: rgb(20, 20, 19);
     color: white;
     display: flex;
+    position: absolute;
     justify-items: center;
     justify-content: center;
     align-items: center;
     font-size: 18px;
-    
+    width: 100%;
+    /* bottom: 0px;   */
+    /* top: 2600px;   */
 }
+#services{
+    flex-direction: column;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* #map h1{
+    text-align: center;
+    /* position: absolute;
+    top: 1180px;
+    left: 50%;
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3rem;
+
+
+} */
+
+ /* #map .map iframe{
+     position: absolute;
+     display: flex;
+     /* border: 2px solid red; 
+     top: 2150px;
+     left: 225px;
+     height: 400px;
+     width: 1000px;
+     border-radius: 40px;
+ }
+ */
