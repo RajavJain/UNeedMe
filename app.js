@@ -3,23 +3,23 @@ const path = require("path");
 const app = express();
 const port = 8000;
 const bodyparser=require("body-parser");
-
 const mongoose = require('mongoose');
-main().catch(err => console.log(err));
 
+
+main().catch(err => console.log(err));
 async function main() {
   await mongoose.connect('mongodb://127.0.0.1/Laundary_Contact'); 
 //   console.log("We are connected");
 }
 
-const contactSchema = new mongoose.Schema({
+const contactSchema = new mongoose.Schema({ // made the blueprint of the data in which data will be stored in organised form
     name: String,
     phone: String,
     email: String,
     address: String
   });
 
-const Contact = mongoose.model('Contact', contactSchema);
+const Contact = mongoose.model('Contact', contactSchema); //
 
 
 // EXPRESS SPECIFIC STUFF
